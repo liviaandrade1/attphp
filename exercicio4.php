@@ -1,14 +1,9 @@
 <?php 
-	$v1 = 3;
-	$v2 = 7;
-	$v3 = 1;
+	$n;
 
-	if($v1 < $v2){
-		print($v1);
-	}elseif($v2 < $v3){
-		print($v1, $v2);
+	for($n=12; $n>=10; $n--){
+		echo "<br/>".$n;
+
 	}
-
-
 
  ?>
