@@ -1,13 +1,15 @@
 <?php 
-  $idade;
   $alt;
-  $sexo;
-
-  for($idade=12; $idade>0; $idade++){
-  		echo "<br/>".$idade;
-  }
-  for($alt=12; $alt>0; $alt++){
-  		echo "<br/>".$alt;
-  	}
-
- ?>
+  $idade;
+ 
+    for($alt=0; $alt<51; $alt++){
+      echo ("A altura é: $alt<br/>");
+    }
+    for($idade=0; $idade<51; $idade++){
+       echo ("A idade é: $idade<br/>");
+    }
+$sexo = array('Feminino', 'Masculino');
+foreach ($sexo as $item) {
+echo "<br/>".$item;
+}
+?>
